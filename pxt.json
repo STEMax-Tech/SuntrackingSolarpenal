@@ -5,12 +5,15 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "servo": "*",
+        "ContinuousServo": "github:tinkertanker/pxt-continuous-servo#v0.0.6"
     },
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
@@ -23,5 +26,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "pyprj"
 }
